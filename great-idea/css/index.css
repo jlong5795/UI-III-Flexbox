@@ -9,7 +9,7 @@
 	padding:0;
 	margin:0;
 	max-width:100%;
-	border:1px solid gray !important;
+	/*border:1px solid gray !important;*/
 }
 
 html, body, div, span, applet, object, iframe,
@@ -86,7 +86,15 @@ h3 {
 .content {
 	display:flex;
 	align-content: stretch;
+	padding:25px 0;
+	justify-content:space-between;
 }
+
+/*Horizontal Rule*/
+hr {
+	border:black 1px inset;
+}
+
 
 /*Nav Bar*/
 
@@ -153,7 +161,13 @@ button {
 /*Bottom Content*/
 .bottom-section {
 	display:inline-block;
-	width:30%;
+	width:32%;
+
+}
+
+/*Contact*/
+#contact {
+	padding:20px 0;
 }
 
 /*Footer*/
@@ -161,3 +175,4 @@ footer {
 	margin-top:50px;
 	text-align: center;
 }
+
