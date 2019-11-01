@@ -176,3 +176,88 @@ footer {
 	text-align: center;
 }
 
+/*Services Page*/
+.services-header-img {
+	padding: 15px 0;
+}
+
+h2 {
+	font-size:25px;
+}
+
+.services {
+	padding-bottom:20px;
+}
+
+/*Page Main Content*/
+.info {
+	
+	border: 1px black solid !important;
+	padding:20px;
+	width:48%;
+	background-color:#F3F3F3;
+}
+
+.row1 {
+	display:flex;
+	flex-flow:wrap;
+	justify-content: space-between;
+	padding:25px 0;
+	align-content: space-between;
+}
+
+.row2 {
+	display:flex;
+	flex-flow:wrap;
+	justify-content: space-between;
+	padding:25px 0;
+	align-content: space-between;
+}
+
+.row3 {
+	display:flex;
+	flex-flow:wrap;
+	justify-content: space-between;
+	padding:25px 0;
+	align-content: space-between;
+}
+
+.learn-more {
+	padding:8px 35px;
+	border-radius:5px;
+	font-size: 10px;
+}
+
+.info p {
+	margin-bottom:15px;
+}
+
+/*Last Section*/
+.facts {
+	padding-top:30px;
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+}
+
+.service-facts {
+	width:45%;
+	display:flex column;
+	align-content:space-between;
+}
+
+.service-facts p {
+	margin-bottom:20px;
+}
+
+.services-img {
+	width: 45%;
+	display:flex;
+	margin-left:25px;
+}
+
+ul li {
+	list-style-type:square;
+	list-style-position:inside;
+	margin:10px;
+}
